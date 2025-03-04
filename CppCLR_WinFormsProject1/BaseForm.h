@@ -59,8 +59,8 @@ namespace CppCLRWinFormsProject {
                 label->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
                 label->AutoSize = false;
                 label->Size = System::Drawing::Size(50, 50);  // Force exact size
-                label->MinimumSize = System::Drawing::Size(49, 49);
-                label->MaximumSize = System::Drawing::Size(49, 49);
+                label->MinimumSize = System::Drawing::Size(45, 45);
+                label->MaximumSize = System::Drawing::Size(45, 45);
 
                 this->buttonGrid->Controls->Add(label, 0, row);  // Add labels in the first column
             }
