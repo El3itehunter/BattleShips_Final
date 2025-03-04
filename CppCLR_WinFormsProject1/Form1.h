@@ -7,7 +7,7 @@ namespace CppCLRWinFormsProject {
     {
     public:
         Form1(void)
-            : BaseForm(System::Drawing::Color::Black, System::Drawing::Color::FromArgb(255, 57, 255, 20), System::Drawing::Color::FromArgb(255, 57, 255, 20))  // Pass the required parameters to the base class constructor
+            : BaseForm(System::Drawing::Color::Black, System::Drawing::Color::FromArgb(0, 255, 0), System::Drawing::Color::FromArgb(0, 255, 0)) // Pass the required parameters to the base class constructor
         {
             InitializeComponent();  // Initialize Form1 components
         }
